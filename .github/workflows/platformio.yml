@@ -21,4 +21,4 @@ jobs:
         run: pip install --upgrade platformio
 
       - name: Build PlatformIO Project
-        run: pio run
+        run: pio run -e QTPY_ESP32_S2
